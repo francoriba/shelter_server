@@ -1,5 +1,9 @@
 # Development of Monitoring Application for Resistance
 
+
+> **_NOTE:_**  Unless you want to read a lot.. just go for the Milestone 3 description :)
+
+
 <details>
 <summary> Problem to solve... </summary>
 
@@ -147,13 +151,13 @@ This lab will challenge your technical expertise as you immerse yourself in a po
 </details>
 
 <details>
-<summary>Solution - Milstone 1</summary>
+<summary>Solution - Milestone 1</summary>
 
 # Lab 1 - Operating Systems II
 ## Milestone 1 - PR description
 
 <p align="center">
-  <img src="../img/M2.png"/>
+  <img src="img/M2.png"/>
 </p>
 
 The big red square is what I've implemented for this M1. If you compare it with the one in the M1 PR, you'll notice the design changes I'll explain below.
@@ -185,12 +189,13 @@ The big red square is what I've implemented for this M1. If you compare it with 
 </details>
 
 <details>
-<summary>Solution - Milstone 2</summary>
+<summary>Solution - Milestone 2</summary>
+   
 # Lab 1 - Operating Systems II
 ## Milestone 2 - PR description
 
 <p align="center">
-  <img src="../img/M3.png"/>
+  <img src="img/M3.png"/>
 </p>
 
 * Multiple TCP clients are supported now. Now instead of creating child processes to handle every tcp connection, we use a polling technique using the select function.
@@ -202,20 +207,21 @@ The big red square is what I've implemented for this M1. If you compare it with 
 </details>
 
 <details>
-<summary>Solution - Milstone 3</summary>
+<summary>Solution - Milestone 3</summary>
+   
 # Lab 1 - Operating Systems II
-## Milestone 4 - PR description (A horror story) :skull:
+## Milestone 3 - PR description
 
 Overall, I think that my original proposal had a pretty good technical analysis since i was able to implement the IPC mechanisms that i orginally planed for each module :wine_glass: . But i did changed my mind a couple of times about the amount of child processes that i was going to need :cop:..
 
 <div style="display: flex; justify-content: center;">
     <div style="flex: 1; padding: 5px; text-align: center;">
         <p>Initial Design Propsal</p>
-        <img src="../img/M2.png" alt="M2 Image" style="max-width: 100%; height: auto;">
+        <img src="img/M2.png" alt="M2 Image" style="max-width: 100%; height: auto;">
     </div>
     <div style="flex: 1; padding: 5px; text-align: center;">
         <p>How it ended</p>
-        <img src="../img/M4.png" alt="M4 Image" style="max-width: 85%; height: 78%;">
+        <img src="img/M4.png" alt="M4 Image" style="max-width: 85%; height: 78%;">
     </div>
 </div>
 
