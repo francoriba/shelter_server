@@ -1,0 +1,37 @@
+# Compiled object files
+*.o
+
+# Executables
+*.exe
+*.out
+
+# Compiled libraries
+*.a
+*.so
+
+# Build directory
+/build/
+
+# External directoy
+/external/
+
+# Dependency files
+*.d
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Dont track sonnar files
+.scannerwork/
+
+# Dont track documentation
+/docs/
+
+
+/sonarqube/
+
+/lib/cJSON/include/cJSON.h
+/scripts/CDashSummary.log
+/tests/Testing/Temporary/LastTest.log
+/tests/Testing/Temporary/CTestCostData.txt
