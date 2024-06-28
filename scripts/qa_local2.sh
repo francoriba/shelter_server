@@ -130,5 +130,5 @@ echo "====All reports have been generated succesfully===="
 
 # Must change in every project
 cd ..
-sonar-scanner -Dsonar.token=sqp_ffb834a3fefa53e6ed4fe1fde9d02b0efada0eac
+sonar-scanner -Dsonar.token=
 exit 0
